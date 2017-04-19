@@ -14944,7 +14944,7 @@ function(e, t, n) {
             value: function() {
                 var e = this;
                 p.
-            default.get("https://raw.githubusercontent.com/yewenxiang23/my-resume/master/src/blogData/product.json").then(function(t) {
+            default.get("").then(function(t) {
                     return e.setState({
                         productDate:
                         t.data
@@ -14981,7 +14981,7 @@ function(e, t, n) {
                     u.
                 default.createElement("h4", null, e.title), u.
                 default.createElement("img", {
-                        src: "http://omfmbv825.bkt.clouddn.com/" + e.imgName + ".png",
+                        src: "" + e.imgName + ".png",
                         alt: e.imgName
                     }), u.
                 default.createElement("div", {
@@ -14989,11 +14989,11 @@ function(e, t, n) {
                     },
                     u.
                 default.createElement("a", {
-                        href: "https://yewenxiang23.github.io/" + e.demoAddress
+                        href: "" + e.demoAddress
                     },
                     "演示demo"), u.
                 default.createElement("a", {
-                        href: "https://github.com/yewenxiang23/" + e.codeAddress
+                        href: "" + e.codeAddress
                     },
                     "源码地址")), u.
                 default.createElement("figcaption", null, e.desc))
